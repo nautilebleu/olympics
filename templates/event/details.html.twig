@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Event {{ event.id }}{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    <ul>
+      <li>{{ event.name }} </li>
+      <li>{{ event.description }} </li>
+    </ul>
+</div>
+{% endblock %}
