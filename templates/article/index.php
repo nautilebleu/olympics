@@ -1,5 +1,5 @@
 <h1>Articles</h1>
-<!-- pre><?php print_r($data['articles']) ?></pre -->
+<pre><?php print_r($data['sessionUser']) ?></pre>
 <hr>
 <ul>
 <?php for($i = 0; $i < count($data['articles']); $i++)  { ?>

@@ -8,6 +8,7 @@ class Article {
 	private ?string $title;
 	private ?string $description;
 	private ?string $content;
+	private ?string $created_at;
 
 	public function getId(): ?int {
 		return $this->id;
@@ -32,6 +33,10 @@ class Article {
 	}
 	public function setContent(?string $content): void {
 		$this->content = $content;
+	}
+
+	public function getCreatedAt(): ?string {
+		return $this->created_at;
 	}
 
 }

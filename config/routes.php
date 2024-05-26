@@ -9,8 +9,12 @@ const ROUTES = [
     'controller' => App\Controller\ArticleController::class,
     'method' => 'index'
     ],
-  '/contact' => [
-  'controller' => App\Controller\MainController::class,
-  'method' => 'contact'
-	],
+    '/login' => [
+      'controller' => App\Controller\UserController::class,
+      'method' => 'login'
+    ],
+    '/register' => [
+      'controller' => App\Controller\UserController::class,
+      'method' => 'register'
+    ],
 ];
