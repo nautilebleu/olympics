@@ -48,15 +48,29 @@
       <div class="navbar-item">
         <div class="buttons">
           <?php if (isset($data['sessionUser'])) { ?>
-            <a href="" class="button is-primary" >
-              <?php print($data['sessionUser']->getFullname()); ?>
-            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a href="" class="navbar-link" >
+                <?php print($data['sessionUser']->getFullname()); ?>
+              </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  Mon compte
+                </a>
+                <a class="navbar-item">
+                  Changer de mot de passe
+                </a>
+                <a class="navbar-item">
+                  Déconnexion
+                </a>
+              </div>
+            </div>
           <?php } else { ?>
             <a class="button is-primary" href="/public/index.php?path=register">
-              <strong>Register</strong>
+              <strong>Enregistrement</strong>
             </a>
             <a class="button is-light" href="/public/index.php?path=login">
-              Log in
+              Connexion
             </a>
           <?php } ?>
         </div>
