@@ -1,6 +1,6 @@
 <?php
 
-use Plugo\Router\Router;
+use Olympics\Router\Router;
 
 require dirname(__DIR__) . '/lib/autoload.php';
 

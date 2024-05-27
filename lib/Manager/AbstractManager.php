@@ -1,6 +1,6 @@
 <?php
 
-namespace Plugo\Manager;
+namespace Olympics\Manager;
 
 require dirname(__DIR__, 2) . '/config/database.php';
 

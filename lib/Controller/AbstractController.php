@@ -1,6 +1,6 @@
 <?php
 
-namespace Plugo\Controller;
+namespace Olympics\Controller;
 
 use App\Manager\UserManager;
 

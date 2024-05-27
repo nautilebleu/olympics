@@ -2,7 +2,7 @@
 session_start();
 
 const ALIASES = [
-	'Plugo' => 'lib',
+	'Olympics' => 'lib',
 	'App' => 'src'
 ];
 
@@ -13,7 +13,7 @@ spl_autoload_register(function (string $class): void {
 	if (in_array($namespaceParts[0], array_keys(ALIASES))) {
 		$namespaceParts[0] = ALIASES[$namespaceParts[0]];
 	} else {
-		throw new Exception('Namespace « ' . $namespaceParts[0] . ' » invalide. Un namespace doit commencer par : « Plugo » ou « App »');
+		throw new Exception('Namespace « ' . $namespaceParts[0] . ' » invalide. Un namespace doit commencer par : « Olympics » ou « App »');
 	}
 
 	$filepath = dirname(__DIR__) . '/' . implode('/', $namespaceParts) . '.php';

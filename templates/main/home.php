@@ -1,1 +1,1 @@
-<h1>Plugo, un micro framework PHP</h1>
+<h1>Olympics, un micro framework PHP</h1>

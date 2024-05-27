@@ -2,7 +2,7 @@
 
 namespace App\Manager;
 
-use Plugo\Manager\AbstractManager;
+use Olympics\Manager\AbstractManager;
 use App\Entity\Article;
 
 class ArticleManager extends AbstractManager {

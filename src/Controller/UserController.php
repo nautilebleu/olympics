@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use Plugo\Controller\AbstractController;
+use Olympics\Controller\AbstractController;
 
 use App\Entity\User;
 use App\Manager\UserManager;

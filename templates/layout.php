@@ -6,7 +6,7 @@
 		<style>
 		@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
 		</style>
-		<title>Plugo</title>
+		<title>Olympics</title>
 	</head>
 	<body>
 		<?php include '_header.php'; ?>

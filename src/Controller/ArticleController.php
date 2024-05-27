@@ -3,7 +3,7 @@
 namespace App\Controller;
 
 use App\Manager\ArticleManager;
-use Plugo\Controller\AbstractController;
+use Olympics\Controller\AbstractController;
 
 class ArticleController extends AbstractController {
 

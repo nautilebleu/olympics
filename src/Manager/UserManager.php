@@ -2,7 +2,7 @@
 
 namespace App\Manager;
 
-use Plugo\Manager\AbstractManager;
+use Olympics\Manager\AbstractManager;
 use App\Entity\User;
 
 class UserManager extends AbstractManager {

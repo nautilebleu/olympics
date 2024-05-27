@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use Plugo\Controller\AbstractController;
+use Olympics\Controller\AbstractController;
 
 class MainController extends AbstractController {
   public function home() {

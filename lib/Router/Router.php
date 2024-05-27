@@ -1,6 +1,6 @@
 <?php
 
-namespace Plugo\Router;
+namespace Olympics\Router;
 
 require dirname(__DIR__, 2) . '/config/routes.php';
 
